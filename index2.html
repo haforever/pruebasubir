@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top" onclick="$(&quot;#menu-close&quot;).click();">Ehitus Ltda</a>
+            </li>
+            <li>
+                <a href="#top" onclick="$(&quot;#menu-close&quot;).click();">Home</a>
+            </li>
+            <li>
+                <a href="#about" onclick="$(&quot;#menu-close&quot;).click();">¿Quienes Somos?</a>
+            </li>
+            <li>
+                <a href="#services" onclick="$(&quot;#menu-close&quot;).click();">Nuestros Servicios</a>
+            </li>
+            <li>
+                <a href="#portafolio" onclick="$(&quot;#menu-close&quot;).click();">Portafolio</a>
+            </li>
+            <li>
+                <a href="#contacto" onclick="$(&quot;#menu-close&quot;).click();">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!--Bienvenida -->
+    <header id="top" class="header">
+        <div class="text-vertical-down">
+         <!--    <h1>Start Bootstrap</h1>
+            <h3>Free Bootstrap Themes &amp; Templates</h3> 
+            <br>-->
+            <a href="#about" class="btn btn-dark btn-lg">Conoce Quienes Somos</a>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                	<h1 style="color:#007EC3">¿Quienes Somos?</h1><br/>
+                	<div class="col-md-6">
+	                    <h2>Nuestra Misión</h2>
+                        <p class="lead">Conocemos la importancia de la energía eléctrica como factor imprescindible en el desarrollo y sostenimiento de la sociedad, es por esto que en EHITUS Ltda  ofrecemos servicios de diagnóstico, análisis, pruebas, asesorías y diseños encaminados a obtener resultados concretos con alto grado de confiabilidad  y eficiencia.<br/><br/>
+                        La consigna de investigar nuevas formas y métodos de solucionar problemas con el mantenimiento y el diagnóstico de los diferentes procesos, productos y equipos de las industrias en general, convierte a EHITUS Ltda en una empresa joven, dinámica, cuya principal fortaleza es el trabajo honesto con los más altos estándares de calidad, vinculando a sus clientes en un ambiente de confianza y fraternidad, transformando ideas en proyectos y proyectos en soluciones.</p>
+                    </div>
+                    <div class="col-md-6">
+	                    <h2>Nuestra Visión</h2>
+                        <p class="lead">Conseguir que la empresa nacional reconozca y vea en
+ EHITUS Ltda, la primera y principal opción a la hora de
+contratar servicios de mantenimiento e ingeniería, dejando
+como insignia la honestidad, la calidad y el cumplimiento,
+generando un espíritu de responsabilidad social que se
+convierta en una solución integral y el mejor aliado para la
+realización de grandes proyectos.</p>
+                    </div>    
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Portafolio -->
+    <section id="services" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Nuestros Servicios</h2><br/>
+                    <h3>A continuación encontrará las categorias en las cuales ejercemos nuestros servicios</h3>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-square fa-stack-2x"></i>
+                                <a href="#callout1" <i class="fa fa-industry fa-stack-1x text-primary"></i></a>
+                            </span>
+                                <h4>
+                                    <strong>Área de Transformadores</strong>
+                                </h4>
+                                <br/>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-square fa-stack-2x"></i>
+                                <a href="#callout2" <i class="fa fa-wrench fa-stack-1x text-primary"></i></a>
+                            </span>
+                                <h4>
+                                    <strong>Mantenimiento Preventivo y Correctivo</strong>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-square fa-stack-2x"></i>
+                                <a href="#callout3" <i class="fa fa-exchange fa-stack-1x text-primary"></i></a>
+                            </span>
+                                <h4>
+                                    <strong>Área Lineas de Transmisión</strong>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-square fa-stack-2x"></i>
+                                <a href="#callout4" <i class="fa fa-cogs fa-stack-1x text-primary"></i></a>
+                            </span>
+                                <h4>
+                                    <strong>Otros Servicios</strong>
+                                </h4>
+                                <br/>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Servicios -->
+    <aside id="callout1">
+        <div class="text-vertical-center" style="background:#000; opacity:1; padding:10px">
+        	<div class="col-sm-6">
+            	<img src="/web/20220104192358im_/http://ehitus.com.co/img/services/transformadores.png" width="100%">
+            </div>
+            <div class="col-sm-6">
+            	<h3>- Inspección interna y externa de transformadores.</h3>
+                <h3>- Montaje y puesta en servicio de estaciones de transformación.</h3>
+                <h3>- Pruebas eléctricas a transformadores de potencia.</h3>
+                <h3>- Agua en transformadores de potencia; fuentes, riesgos y métodos de medición.</h3>
+                <h3>- Pruebas mecánicas a transformadores.</h3>
+                <h3>- Pruebas de funcionamiento a protecciones mecánicas del transformador.</h3>
+                <h3>- Asesoría.</h3>
+                <h3>- Diagnostico.</h3>
+ 			</div>
+        </div>
+    </aside>
+    <aside id="callout2">
+        <div class="text-vertical-center" style="background:#fff; opacity:1; padding:10px">
+        	<div class="col-sm-6">
+            	<img src="/web/20220104192358im_/http://ehitus.com.co/img/services/mantenimiento.png" width="100%">
+            </div>
+            <div class="col-sm-3">
+            	<img src="/web/20220104192358im_/http://ehitus.com.co/img/services/man-termo-ptro.png" width="150px" height="150px" style="margin:10px">
+                <img src="/web/20220104192358im_/http://ehitus.com.co/img/services/man-ins-ultra.png" width="150px" height="150px" style="margin:10px">
+                <img src="/web/20220104192358im_/http://ehitus.com.co/img/services/man-termo-aa.png" width="150px" height="150px" style="margin:10px">
+            </div>
+            <div class="col-sm-3">
+            	<img src="/web/20220104192358im_/http://ehitus.com.co/img/services/man-termo-se.png" width="150px" height="150px" style="margin:10px">
+                <img src="/web/20220104192358im_/http://ehitus.com.co/img/services/man-termo-sm.png" width="150px" height="150px" style="margin:10px">
+                <img src="/web/20220104192358im_/http://ehitus.com.co/img/services/man-termo-id.png" width="150px" height="150px" style="margin:10px">
+            </div>
+        </div>
+    </aside>
+    <aside id="callout3">
+        <div class="text-vertical-center" style="background:#000; opacity:1; padding:10px">
+        	<div class="col-sm-6">
+            	<img src="/web/20220104192358im_/http://ehitus.com.co/img/services/lineas.png" width="100%">
+            </div>
+            <div class="col-sm-6">
+            	<h3>- Diseño, replanteo y construcción de redes y sub-estaciones.</h3>
+                <h3>- Estudios de carga.</h3>
+                <h3>- Inspección exhaustiva de estructuras.</h3>
+                <h3>- Medida, diseño y mejora del sistema de puesta a tierra.</h3>
+                <h3>- Corrección del factor de potencia.</h3>
+                <h3>- Diseño y construcción de tableros de control.</h3>
+                <h3>- Sistemas de iluminación.</h3>
+ 			</div>
+        </div>
+    </aside>
+    <aside id="callout4">
+        <div class="text-vertical-center" style="background:#fff; opacity:1; padding:10px">
+        	<div class="col-sm-6">
+            	<img src="/web/20220104192358im_/http://ehitus.com.co/img/services/otros.png" width="100%">
+            </div>
+            <div class="col-sm-6">
+            	<h3>- Pruebas cuantitativas y cualitativas de contenido de bifenilos policlorinados(PCBs).<br/><br/>
+- Energías Renovables.<br/><br/>
+- Control automático de procesos.<br/><br/>
+- Arrancadores suaves y variadores de velocidad.<br/><br/>
+- Análisis y medidas de variables especiales, Iluminación, ruido, presión, humedad relativa, punto de rocío, flujo magnético, radiación, vacío., etc.<br/><br/>
+- Asesoría en sistemas de gestión de calidad bajo la norma ISO 9001: 2008.</h3>
+ 			</div>
+        </div>
+    </aside>
+
+    <!-- Portfolio
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Our Work</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                  
+                    <a href="#" class="btn btn-dark">View More Items</a>
+                </div>
+             
+            </div>
+     
+        </div>
+
+    </section>  -->
+
+    <!-- Call to Action -->
+    <aside id="portafolio" class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>Conozca nuestro Portafolio de Servicios Detallado</h3>
+                    <a href="pdf/portafolio.pdf" class="btn btn-lg btn-light" target="_blank">Descargar</a>
+                    <a href="portafolio/portafolio.html" class="btn btn-lg btn-dark" target="_blank">Ver en Linea</a>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Map 
+    <section id="contact" class="map">
+        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
+        <br />
+        <small>
+            <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
+        </small>
+        </iframe>
+    </section> -->
+
+    <!-- Footer -->
+    <footer id="contacto">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>Ehitus Ltda</strong>
+                    </h4>
+                    <p>Transversal 5 # 61 - 47<br/>
+                    Tunja - Boyacá</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> (+57)(8)7436161</li>
+                        <i class="fa fa-mobile fa-fw"></i> (+57) 310 2619895</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="https://web.archive.org/web/20220104192358/mailto:ehitus@ehitus.com.co">ehitus@ehitus.com.co</a>
+                        </li>
+                    </ul>
+                    <br>
+                   <!-- <ul class="list-inline">
+                        <li>
+                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul> -->
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; <a href="https://web.archive.org/web/20220104192358/mailto:info@hpasion.com">Estudio 150461</a> <br/>2015</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="/web/20220104192358js_/http://ehitus.com.co/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/web/20220104192358js_/http://ehitus.com.co/js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
+
+</body>
+</html>
